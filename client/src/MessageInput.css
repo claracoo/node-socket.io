@@ -1,0 +1,99 @@
+form {
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .full {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .startButton {
+    height: 50px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border: 1px solid black
+  }
+
+  .startButton:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+
+  .capys {
+    display: flex;
+  }
+
+  .capys img {
+    width: 50%;
+    margin: 10px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* gap: 10px; */
+    /* padding: 10px; */
+  }
+  
+  .grid-container > img {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .getStarted {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .game {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+
+  @media only screen and (min-width: 400px) {
+    .game {
+      width: 60%;
+    }
+  }
+  @media only screen and (min-width: 500px) {
+    .game {
+      width: 40%;
+    }
+  }
+  @media only screen and (min-width: 750px) {
+    .game {
+      width: 80%;
+    }
+
+    .grid-container {
+      grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    }
+  }
+  @media only screen and (min-width: 1400px) {
+    .game {
+      width: 60%;
+    }
+  }
+
+
+  .instructions {
+    width: 50%;
+  }
